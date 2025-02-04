@@ -1,5 +1,5 @@
 // Lab2 {arrays, Scanner}
-
+//Find the largest among 3 user entered nos. at the command prompt using Java
 import java.util.*;
 public class Prog2_1 {
     public static void main(String[] args) {
