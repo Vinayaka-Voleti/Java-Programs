@@ -4,7 +4,7 @@ import java.util.*;
 public class Prog2_1 {
     public static void main(String[] args) {
         int num1, num2, num3;
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         System.out.println("Enter Number1 :");
         num1 = sc.nextInt();
         System.out.println("Enter Number2 :");
@@ -21,5 +21,6 @@ public class Prog2_1 {
             System.out.println(num3+" is Greater");
         }
         // sc.close();
+    }
     }
 }

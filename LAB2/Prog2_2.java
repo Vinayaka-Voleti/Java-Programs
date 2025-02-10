@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Prog2_2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         int i ;
         int num_of_e = 0;
         int num_of_o = 0;
@@ -22,5 +22,6 @@ public class Prog2_2 {
         }
         System.out.println(num_of_e);
         System.out.println(num_of_o);
+    }
     }
 }
