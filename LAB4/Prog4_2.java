@@ -1,5 +1,5 @@
 //Accept 10 numbers from command line and check how many of them are even and how many are odd.
-public class Prog3_2 {
+public class Prog4_2 {
     public static void main(String[] args) {
         int counteven = 0;
         int countodd = 0;
