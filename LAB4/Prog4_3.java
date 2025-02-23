@@ -1,7 +1,7 @@
 import java.util.*;
 class Student{
-    int rollno;
-    String name;
+    public int rollno;
+    public String name;
     // float cgpa;
     float Lowestgpa;
     

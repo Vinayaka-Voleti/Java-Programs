@@ -6,7 +6,7 @@ class acco{
 
     
     public void details(){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
         System.out.println("Enter the account number:");
         acc_no = sc.nextInt();
         System.out.println("Enter the initial balance:");

@@ -18,7 +18,7 @@ class calc {
         return result;
     }
 }
-class Prog3_4 {
+class Prog4_4 {
     public static void main(String[] args) {
         calc calculator = new calc();
         
