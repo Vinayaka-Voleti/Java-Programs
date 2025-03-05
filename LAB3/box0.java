@@ -6,6 +6,10 @@ class Box {
     double volume() {
         return length * width * height;
     }
+    public double  peri (){
+     
+        return length + width + height;
+    }
 }
 public class box0 {
     public static void main(String[] args) {
@@ -16,7 +20,7 @@ public class box0 {
         myBox.height = 3.0;
 
         System.out.println("Volume of the box: " + myBox.volume());
-        // System.out.println("Dimensions of the box " + myBox.dim());
+        System.out.println("Dimensions of the box " + myBox.peri());
     }
 }
 
